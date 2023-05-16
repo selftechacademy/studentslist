@@ -64,7 +64,7 @@ const studentList = [
 const showAllInfo = studentList.map((el, index) => {
   return (
     <div className="card">
-      <img src={el.imgSource} />
+      <img src={el.imgSource} alt="picture of a student" />
       <ul>
         <li>{el.name} </li>
         <li>{el.email}</li>
